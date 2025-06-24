@@ -1,66 +1,58 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+![logo salataru](https://github.com/user-attachments/assets/e7ddc8d9-7f30-4a27-8d76-8f9f602d925a)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## SalaTaru – Sistem Informasi Geospasial Tata Ruang Kota Salatiga
+Temukan, Laporkan, Rencanakan Ruangmu
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+SalaTaru adalah sebuah platform WebGIS (Geographic Information System berbasis web) yang dikembangkan untuk mendukung pengelolaan, pengawasan, dan perencanaan tata ruang Kota Salatiga secara transparan dan partisipatif. Aplikasi ini mempermudah masyarakat untuk mengakses data tata ruang yang sebelumnya sulit dijangkau dan mendorong keterlibatan publik dalam menjaga keteraturan dan keberlanjutan ruang kota.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Melalui SalaTaru, pengguna dapat:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Mengakses informasi zonasi tata ruang secara interaktif.
 
-## Learning Laravel
+Menelusuri fasilitas umum, jalan, dan sungai di Kota Salatiga.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Mengajukan izin perubahan penggunaan lahan (KKPR).
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Menyampaikan laporan atau pengaduan terkait tata ruang secara langsung.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Aplikasi ini diharapkan menjadi solusi inovatif dalam menciptakan tata ruang kota yang ramah masyarakat, transparan, dan mudah diawasi.
 
-## Laravel Sponsors
+##  Latar Belakang
+Informasi terkait tata ruang di Kota Salatiga saat ini masih terbatas dan belum tersedia secara terbuka bagi masyarakat. Warga tidak memiliki akses langsung untuk mengetahui status zona tata ruang pada titik lokasi yang mereka miliki. Hal ini menyebabkan kesulitan dalam perencanaan pembangunan, pengajuan izin, dan partisipasi publik dalam pengawasan tata ruang.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Dikembangkanlah SalaTaru untuk:
 
-### Premium Partners
+Menyediakan peta tata ruang yang dapat diakses secara online,
+Mempermudah masyarakat untuk mengajukan izin alih fungsi lahan (KKPR),
+Mendorong keterlibatan masyarakat dalam menjaga dan mengawasi pemanfaatan ruang di Kota Salatiga,
+Dengan platform ini, masyarakat diharapkan dapat lebih peduli dan aktif dalam proses perencanaan tata ruang yang berkelanjutan.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+## Fitur Utama
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Proyek ini dikembangkan menggunakan Laravel untuk backend dan Leaflet.js untuk peta interaktifnya. Semua pengolahan data disimpan dalam sistem basis data MySQL yang terintegrasi dengan aplikasi. Untuk menjalankan aplikasi ini, pengguna dapat mengkloning repository, melakukan konfigurasi sesuai kebutuhan, dan menjalankan server lokal untuk keperluan pengujian dan pengembangan.
 
-## Code of Conduct
+Dengan adanya SalaTaru, diharapkan tercipta ekosistem tata ruang yang lebih transparan, terbuka, dan ramah bagi masyarakat. Proyek ini juga terbuka bagi siapa saja yang ingin berkontribusi dalam pengembangannya untuk meningkatkan fungsionalitas maupun penyempurnaan sistem di masa mendatang. Semua kontribusi sangat dihargai demi mewujudkan tata ruang Kota Salatiga yang tertib dan berkelanjutan.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Sumber Data
+https://sikeren.salatiga.go.id/ DPUPR Kota Salatiga
 
-## Security Vulnerabilities
+## Fitur Pada Website
+![image](https://github.com/user-attachments/assets/7f701f9e-7aa9-45ff-82b4-07719917ce4e)
+![image](https://github.com/user-attachments/assets/94d99c23-6763-4370-be34-3d5803f2683a)
+![image](https://github.com/user-attachments/assets/d9ff83b2-a7c4-48af-a227-c0b81fd66413)
+![image](https://github.com/user-attachments/assets/67ca6253-b0bd-4124-b0ad-f1a40215be3d)
+![image](https://github.com/user-attachments/assets/f6110589-7ee0-4b5a-9001-b20cd1645e0c)
+![image](https://github.com/user-attachments/assets/ebb4f909-f367-4771-b57f-00b60dfa3bd0)
+![image](https://github.com/user-attachments/assets/4debeb09-636c-47d1-9005-03fbf6e0fbe8)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
